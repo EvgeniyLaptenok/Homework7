@@ -7,9 +7,9 @@
 1
 7 -> такого числа в массиве нет
 */
-Console.Write("Введите m");
+Console.Write("Введите m: ");
 int m = int.Parse(Console.ReadLine()!);
-Console.Write("Введите n");
+Console.Write("Введите n: ");
 int n = int.Parse(Console.ReadLine()!);
 
 int[,] matrix = Create2DArray(m, n);
